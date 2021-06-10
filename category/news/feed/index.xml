@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>News &#8211; C.NET</title>
+	<atom:link href="http://localhost/binhgold/wordpress/category/news/feed/" rel="self" type="application/rss+xml" />
+	<link>https://nptb0503.github.io/cnet</link>
+	<description>Pro News</description>
+	<lastBuildDate>Thu, 10 Jun 2021 10:35:32 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://nptb0503.github.io/cnet/wp-content/uploads/2021/06/99ea1f9804b54478b17c508dc87278b8.png</url>
+	<title>News &#8211; C.NET</title>
+	<link>https://nptb0503.github.io/cnet</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Fastly internet outage explained: How one customer broke Amazon, Reddit and half the web</title>
+		<link>https://nptb0503.github.io/cnet/news/fastly-internet-outage-explained-how-one-customer-broke-amazon-reddit-and-half-the-web/</link>
+					<comments>https://nptb0503.github.io/cnet/news/fastly-internet-outage-explained-how-one-customer-broke-amazon-reddit-and-half-the-web/#comments</comments>
+		
+		<dc:creator><![CDATA[Nguyễn Phúc Thanh Bình]]></dc:creator>
+		<pubDate>Thu, 10 Jun 2021 10:35:32 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[#fastly #company #technews #new]]></category>
+		<guid isPermaLink="false">https://nptb0503.github.io/cnet/?p=5</guid>
+
+					<description><![CDATA[The internet was brought to its knees by a massive outage on Tuesday. Now we know exactly what the cause was, and how the problem was fixed.]]></description>
+										<content:encoded><![CDATA[
+<p>The internet was brought to its knees by a massive outage on Tuesday. Now we know exactly what the cause was, and how the problem was fixed.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1000" height="667" src="https://nptb0503.github.io/cnet/wp-content/uploads/2021/06/Data-technology-1.jpg" alt="" class="wp-image-6"/><figcaption>Not Fastly&#8217;s proudest moment.</figcaption></figure>
+
+
+
+<p>Tuesday will be remembered as the day the internet broke &#8212; before swiftly being fixed again. Early in the morning, websites including Amazon, Reddit, Spotify, eBay, Twitch, Pinterest and, unfortunately, CNET went offline due to a major outage at a service called Fastly. Everywhere you looked, there were 503 errors and people complaining they couldn&#8217;t access key services and news outlets. Within 24 hours, we&nbsp;<a href="https://www.fastly.com/blog/summary-of-june-8-outage" rel="noreferrer noopener" target="_blank">found out the root cause of the outage</a>.</p>
+
+
+
+<p>After an investigation into what went wrong, Fastly published a blog post describing exactly what went down &#8212; and it turns out the whole incident was triggered by just a single, unnamed Fastly customer.</p>
+
+
+
+<p>In mid-May, Fastly issued a software deployment that contained a bug, which if triggered in specific circumstances could take down vast swaths of its network. The bug lay dormant until June 8, when one Fastly customer inadvertently triggered it during a &#8220;valid configuration change,&#8221; which caused 85% of the company&#8217;s network to return errors.</p>
+
+
+
+<p>&#8220;We detected the disruption within 1 minute, then identified and isolated the cause, and disabled the configuration,&#8221; said Nick Rockwell, Fastly&#8217;s senior vice president of engineering and infrastructure, in the blog post. &#8220;Within 49 minutes, 95% of our network was operating as normal. This outage was broad and severe, and we&#8217;re truly sorry for the impact to our customers and everyone who relies on them.&#8221;</p>
+
+
+
+<h2>What happened during the Fastly outage?</h2>
+
+
+
+<p>At around 2:58 a.m. PT, Fastly&#8217;s <a rel="noreferrer noopener" href="https://status.fastly.com/" target="_blank">status update page</a> noted an error, saying &#8220;we&#8217;re currently investigating potential impact to performance with our CDN [content delivery network] services.&#8221; Shortly thereafter, reports emerged on Twitter of major news publications including the BBC, CNN and The New York Times being offline. Twitter itself was still running, although the server that hosted its emojis went down, leading to some odd-looking tweets.</p>
+
+
+
+<p>Rather than isolated incidents affecting individual sites, it turned out this was a massive outage that had brought much of the internet to its knees. Across the world, people were receiving Error: 503 messages as they tried to access sites, including some vital services, such as the UK government&#8217;s gov.uk web properties.</p>
+
+
+
+<p>Almost an hour later, at 3:44 a.m. PT &#8212; or 6:44 a.m. ET, on the cusp of the US East Coast workday, and coming up on noon in the UK &#8212; Fastly updated its status page again to say the issue has been identified and a fix was being implemented. At 4:10 a.m. PT, the company tweeted: &#8220;We identified a service configuration that triggered disruptions across our POPs globally and have disabled that configuration. Our global network is coming back online.&#8221;https://platform.twitter.com/embed/Tweet.html?creatorScreenName=katiecollins&amp;dnt=false&amp;embedId=twitter-widget-0&amp;features=eyJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2hvcml6b25fdHdlZXRfZW1iZWRfOTU1NSI6eyJidWNrZXQiOiJodGUiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3R3ZWV0X2VtYmVkX2NsaWNrYWJpbGl0eV8xMjEwMiI6eyJidWNrZXQiOiJjb250cm9sIiwidmVyc2lvbiI6bnVsbH19&amp;frame=false&amp;hideCard=false&amp;hideThread=false&amp;id=1402221348659814411&amp;lang=en&amp;origin=https%3A%2F%2Fwww.cnet.com%2Fnews%2Ffastly-internet-outage-explained-how-one-customer-broke-amazon-reddit-and-half-the-web%2F&amp;sessionId=33c1641c06061f8cffe6018b20181286c1ebcdd8&amp;siteScreenName=CNET&amp;theme=light&amp;widgetsVersion=82e1070%3A1619632193066&amp;width=550px</p>
+
+
+
+<p>The same message was sent to CNET as a comment by Fastly spokespeople.</p>
+
+
+
+<h2>What is Fastly?</h2>
+
+
+
+<p>Fastly is a cloud computing service provider, headquartered in San Francisco, that&#8217;s been around since 2011. In 2017, it launched an edge cloud platform designed to bring websites closer to the people who use them. Effectively this means that if you&#8217;re accessing a website hosted in another country, it will store some of that website closer to you so that there&#8217;s no need to waste bandwidth by going to fetch all of that website&#8217;s content from far away every time you need it.</p>
+
+
+
+<p>This makes for faster website load times, and optimizes images, videos and other high-payload content to show up quickly and smoothly when you land on a web page. Among the boasts on the company&#8217;s website, it says it made loading pages on Buzzfeed 50% faster and allowed The New York Times to simultaneously handle 2 million readers on election night. Edge computing also performs vital cybersecurity functions, protecting sites from DDoS attacks and bots, as well as providing a web application firewall.</p>
+
+
+
+<p>Due to the way Fastly sits between the back-end web servers and the front-facing internet as we see it, any errors on its part can cause whole websites to be unavailable. Due to the localized nature of the edge cloud platform, it also means that errors don&#8217;t affect all regions in the same way at the same time (although people all across the world reported experiencing problems on Tuesday).</p>
+
+
+
+<h2>What is a 503 error?</h2>
+
+
+
+<p>When you see a website displaying a 503 error rather than showing you the page you were expecting, it means the server hosting the website isn&#8217;t ready to handle the request. It also indicates that the problem is temporary and that it will likely be resolved soon.</p>
+
+
+
+<p>Commonly, it is caused when a server is down for maintenance, or when a website has been overloaded &#8212; for example, if too many people are trying to access it at once.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.cnet.com/a/img/0EBgni361zuI4SfJVH4nOVXUfvA=/1092x0/2021/06/08/e60b2742-49e4-438d-b051-0a81119800e4/screenshot-2021-06-08-at-12-08-53.png" alt="screenshot-2021-06-08-at-12-08-53.png"/><figcaption>Fastly issues service updates throughout the outage.Screenshot/CNET</figcaption></figure>
+
+
+
+<h2>Why did Fastly fail on Tuesday and will it happen again?</h2>
+
+
+
+<p>We now know that Tuesday&#8217;s internet outage was caused by a service configuration change by one of Fastly&#8217;s customers that triggered a bug hidden in Fastly&#8217;s network. The bug had been lying dormant since a software update deployment by Fastly on May 6.</p>
+
+
+
+<p>To make sure the problem doesn&#8217;t repeat itself, Fastly has said it&#8217;s taking a number of actions. It is deploying a bug fix across its network, while also conducting a complete post-mortem of the processes and practices it followed during the incident. It&#8217;s also going to be figuring out why it didn&#8217;t catch the bug during its own testing processes and evaluating ways to improve remediation time.</p>
+
+
+
+<p>&#8220;Even though there were specific conditions that triggered this outage, we should have anticipated it,&#8221; said Rockwell. &#8220;We provide mission critical services, and we treat any action that can cause service issues with the utmost sensitivity and priority.&#8221;</p>
+
+
+
+<p>Many people speculated on Twitter that the outage was caused by a cyberattack, but we now know that this wasn&#8217;t the case. There are many technical reasons a CDN can fail, and cyberattacks are just one of them. It is concerning, however, to see quite how vulnerable they can be.</p>
+
+
+
+<p>&#8220;CDNs are part of the internet&#8217;s critical infrastructure and if threat actors hadn&#8217;t already cottoned on to this as a direct attack vector to bring down the internet, they will now after monitoring [Tuesday&#8217;s] misfortunate events,&#8221; said Jake Moore, a cybersecurity specialist at security firm ESET in a statement.</p>
+
+
+
+<h2>Why were so many websites affected by the Fastly outage?</h2>
+
+
+
+<p>Fastly is a widely used service by web publishers &#8212; and it became apparent exactly how widely used on Tuesday when vast swaths of the internet became unavailable. The whole incident demonstrated just how much of the internet relies on this largely unheard-of cloud computing service.</p>
+
+
+
+<p>The reason it&#8217;s so popular is that the services it provides are considered essential by many online web properties, but not many companies provide these services. As such, a vast number of websites are reliant on a very small group of companies to keep running. Similar problems were seen when&nbsp;<a href="https://www.cnet.com/news/cloudflare-dns-outage-makes-websites-unreachable/">Cloudflare was hit with an outage</a>&nbsp;last July, and when&nbsp;<a href="https://www.cnet.com/news/amazon-web-service-outage-takes-down-major-apps-and-sites/">Amazon Web Services went down</a>&nbsp;last November.</p>
+
+
+
+<p>As Corinne Cath-Speth, a Ph.D. candidate at Oxford Internet Institute and the Alan Turing Institute&nbsp;<a href="https://twitter.com/C___CS/status/1402224754124337152?s=20" rel="noreferrer noopener" target="_blank">pointed out on Twitter</a>, this means &#8220;a technical hiccup in a single company can have huge ramifications.&#8221;</p>
+
+
+
+<p>&#8220;This in turn &#8212; raises major questions about the dangers of (power) consolidation in the cloud market and the unquestioned influence these often invisible actors have over access to information,&#8221; she added.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="800" height="526" src="https://nptb0503.github.io/cnet/wp-content/uploads/2021/06/fastly-la-ong-lon-nao-khien-mot-nua-internet-te-liet.jpg" alt="" class="wp-image-7"/><figcaption>The same message was sent to CNET as a comment by Fastly spokespeople.</figcaption></figure>
+
+
+
+<h2>What is Fastly?</h2>
+
+
+
+<p>Fastly is a cloud computing service provider, headquartered in San Francisco, that&#8217;s been around since 2011. In 2017, it launched an edge cloud platform designed to bring websites closer to the people who use them. Effectively this means that if you&#8217;re accessing a website hosted in another country, it will store some of that website closer to you so that there&#8217;s no need to waste bandwidth by going to fetch all of that website&#8217;s content from far away every time you need it.</p>
+
+
+
+<p>This makes for faster website load times, and optimizes images, videos and other high-payload content to show up quickly and smoothly when you land on a web page. Among the boasts on the company&#8217;s website, it says it made loading pages on Buzzfeed 50% faster and allowed The New York Times to simultaneously handle 2 million readers on election night. Edge computing also performs vital cybersecurity functions, protecting sites from DDoS attacks and bots, as well as providing a web application firewall.</p>
+
+
+
+<p>Due to the way Fastly sits between the back-end web servers and the front-facing internet as we see it, any errors on its part can cause whole websites to be unavailable. Due to the localized nature of the edge cloud platform, it also means that errors don&#8217;t affect all regions in the same way at the same time (although people all across the world reported experiencing problems on Tuesday).</p>
+
+
+
+<h2>What is a 503 error?</h2>
+
+
+
+<p>When you see a website displaying a 503 error rather than showing you the page you were expecting, it means the server hosting the website isn&#8217;t ready to handle the request. It also indicates that the problem is temporary and that it will likely be resolved soon.</p>
+
+
+
+<p>Commonly, it is caused when a server is down for maintenance, or when a website has been overloaded &#8212; for example, if too many people are trying to access it at once.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="768" height="512" src="https://nptb0503.github.io/cnet/wp-content/uploads/2021/06/1617714209.png" alt="" class="wp-image-8"/><figcaption>Fastly issues service updates throughout the outage.</figcaption></figure>
+
+
+
+<h2>Why did Fastly fail on Tuesday and will it happen again?</h2>
+
+
+
+<p>We now know that Tuesday&#8217;s internet outage was caused by a service configuration change by one of Fastly&#8217;s customers that triggered a bug hidden in Fastly&#8217;s network. The bug had been lying dormant since a software update deployment by Fastly on May 6.</p>
+
+
+
+<p>To make sure the problem doesn&#8217;t repeat itself, Fastly has said it&#8217;s taking a number of actions. It is deploying a bug fix across its network, while also conducting a complete post-mortem of the processes and practices it followed during the incident. It&#8217;s also going to be figuring out why it didn&#8217;t catch the bug during its own testing processes and evaluating ways to improve remediation time.</p>
+
+
+
+<p>&#8220;Even though there were specific conditions that triggered this outage, we should have anticipated it,&#8221; said Rockwell. &#8220;We provide mission critical services, and we treat any action that can cause service issues with the utmost sensitivity and priority.&#8221;</p>
+
+
+
+<p>Many people speculated on Twitter that the outage was caused by a cyberattack, but we now know that this wasn&#8217;t the case. There are many technical reasons a CDN can fail, and cyberattacks are just one of them. It is concerning, however, to see quite how vulnerable they can be.</p>
+
+
+
+<p>&#8220;CDNs are part of the internet&#8217;s critical infrastructure and if threat actors hadn&#8217;t already cottoned on to this as a direct attack vector to bring down the internet, they will now after monitoring [Tuesday&#8217;s] misfortunate events,&#8221; said Jake Moore, a cybersecurity specialist at security firm ESET in a statement.</p>
+
+
+
+<h2>Why were so many websites affected by the Fastly outage?</h2>
+
+
+
+<p>Fastly is a widely used service by web publishers &#8212; and it became apparent exactly how widely used on Tuesday when vast swaths of the internet became unavailable. The whole incident demonstrated just how much of the internet relies on this largely unheard-of cloud computing service.</p>
+
+
+
+<p>The reason it&#8217;s so popular is that the services it provides are considered essential by many online web properties, but not many companies provide these services. As such, a vast number of websites are reliant on a very small group of companies to keep running. Similar problems were seen when&nbsp;<a href="https://www.cnet.com/news/cloudflare-dns-outage-makes-websites-unreachable/">Cloudflare was hit with an outage</a>&nbsp;last July, and when&nbsp;<a href="https://www.cnet.com/news/amazon-web-service-outage-takes-down-major-apps-and-sites/">Amazon Web Services went down</a>&nbsp;last November.</p>
+
+
+
+<p>As Corinne Cath-Speth, a Ph.D. candidate at Oxford Internet Institute and the Alan Turing Institute&nbsp;<a href="https://twitter.com/C___CS/status/1402224754124337152?s=20" rel="noreferrer noopener" target="_blank">pointed out on Twitter</a>, this means &#8220;a technical hiccup in a single company can have huge ramifications.&#8221;</p>
+
+
+
+<p>&#8220;This in turn &#8212; raises major questions about the dangers of (power) consolidation in the cloud market and the unquestioned influence these often invisible actors have over access to information,&#8221; she added.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Major websites go down after outage at cloud company Fastly" width="960" height="540" src="https://www.youtube.com/embed/iCSZqUtM3Oo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div><figcaption>People talk to more problem of Fastly Company</figcaption></figure>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://nptb0503.github.io/cnet/news/fastly-internet-outage-explained-how-one-customer-broke-amazon-reddit-and-half-the-web/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
